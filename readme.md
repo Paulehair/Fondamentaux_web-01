@@ -11,10 +11,14 @@
 
 ## Les différentes utilisations du shell
 
-## Commandes de Base
+## Liste des Commandes du Shell
 
-| commande | description |
-| -------- | ----------- |
-| pwd      | Affiche la position de l'utilisateur dans l'arborescence du système |
+çi dessous une
+### Commandes de Base
 
-## commandes avancées
+| commande | nom | description de la commande | exemple |
+| -------- | --- | -------------------------- | ------- |
+| pwd      | Print Working Directory | Affiche la position de l'utilisateur dans l'arborescence du système | '~ pwd user / <username>' |
+| ls       | List | Affiche une liste des éléments présents dans le répertoire actuel | '~ ls toto.txt tata.txt pokemon ' |
+
+### commandes avancées
