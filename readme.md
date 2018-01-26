@@ -7,7 +7,26 @@
 4. Ye Marc https://github.com/ye-marc
 
 
-## Historique des interfaces UNIX (Paule)
+## Historique des interfaces UNIX
+
+Le Shell Unix est un langage permettant d'interpréter des actions en lignes de commandes,
+cela permet de communiquer avec un système d'exploitation pour accéder à ses fonctionnalités internes qui pour la plupart ne sont pas accessible autrement.
+On l’utilise principalement pour communiquer sur un serveur ou un système d’exploitation sans interface graphique.
+
+
+Le premier shell est le Thompson Shell apparu en 1971 avec la première version d’Unix et écrit par Ken Thompson, l'un des créateurs d'Unix.
+
+* Tout d'abord que l'ancêtre de tous les shells est le sh (Bourne Shell). C'est le plus vieux et il est installé sur tous les OS basés sur Unix. Il est néanmoins pauvre en fonctionnalités par rapport aux autres shells.
+* **bash :** Le bash (Bourne Again Shell) est le shell par défaut de la plupart des distributions Linux mais aussi celui du terminal de Mac OS X.
+* **ksh :** Korn Shell. Un shell puissant assez présent ( sur les Unix propriétaires ) , mais aussi disponible en version libre, compatible avec bash.
+* **csh :** C Shell. Un shell utilisant une syntaxe proche du langage C.
+* **tcsh :** Tenex C Shell. Amélioration du C Shell.
+* **zsh :** Paul Falstad crée le Zsh en 1990.
+* **Z Shell :** Shell assez récent reprenant les meilleures idées de bash, ksh et tcsh.
+
+
+
+
 
 ## Les différentes utilisations du shell
 
@@ -42,4 +61,3 @@ Ci dessous, une liste non exhaustive des commandes basiques d'UNIX, pour ouvrir 
 | `la -a` | - | inclut les fichiers commençant par un point (.) |
 | `la -l` | - | inclut les permissions, propriétaires, tailles et dates de modifications |
 | `sudo` | substitute user do | permet d'exécuter une commande en tant qu'administrateur |
-| `` |  |  |
