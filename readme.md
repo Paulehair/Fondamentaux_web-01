@@ -13,32 +13,33 @@
 
 ## Liste des Commandes du Shell
 
-çi dessous une liste des commandes basiques du langage shell
+Ci dessous, une liste non exhaustive des commandes basiques d'UNIX, pour ouvrir votre terminal sous mac `cmd + t`.
+
 ### Commandes de Base
 
 | Commande | Nom | Description |
 | -------- | --- | ----------- |
+| `man`| manual | affiche le manuel de la commande spécifiée
 |   `pwd`  | Print Working Directory | Affiche la position de l'utilisateur dans l'arborescence du système |
-|   `ls`   | List | Affiche une liste des éléments présents dans le répertoire actuel |
+|   `ls`   | List segment | Affiche une liste du contenu du répertoire actuel |
 | `cd` | change directory | change de répertoire à partir du répertoire actuel |
 | `mkdir` | make directory | crée un nouveau dossier dans le répertoire actuel |
-| `cp` | copy | copie le répertoire ou le fichier ciblé dans le répertoire de destination | cp <filename> <filename>|
+| `cp` | copy | copie le répertoire ou le fichier ciblé dans le répertoire de destination |
 | `touch` | touch | crée un fichier dans le répertoire actuel |
-| `sudo` | sudo | éxécute une commande en tant qu'administrateur | à ajouter avant une commande |
-| `rmdir` | remove directory | supprime le répertoire cible | rm <directoryName> |
-| `rm` | remove | supprime le fichier cible | rm <fileName>
-|`open` | open | ouvre le répertoire cible | open <directory>
-| `mmv` | mass move and rename | déplace et renome plusieurs fichiers |
-| `mv` | move | déplace ou renome un fichier |
-| `man`| manual | affiche le manuel des commandes du shell
-| `locate` | locate | trouve le fichier dans le système 
-| `killall`| kill all | ferme tous les process en cours | killall finder |
+| `rmdir` | remove directory | supprime le répertoire cible |
+| `rm` | remove | supprime le fichier cible |
+|`open` | open | ouvre le répertoire cible |
+| `mv` | move | déplace ou renomme un fichier |
+| `locate` | locate | recherche dans la base de données du système, le nom de chemin spécifié|
 
-# autres utilisations des commandes de base
-
-| Commande | effet |
-| -------- | ----- |
-| `cd ..` | permet de remonter d'un répertoire dans l'arborescence du système |
-| `cp <file directory>` | copie un fichier et le colle dans le répertoire ciblé |
 
 ### commandes avancées
+
+| Commande | Nom | Description |
+| -------- | --- | ----------- |
+| `mmv` | mass move and rename | déplace et renomme plusieurs fichiers |
+| `la -A` | - | Affiche la liste de toutes les entrées sauf celles commençant par . et .. |
+| `la -a` | - | inclut les fichiers commençant par un point (.) |
+| `la -l` | - | inclut les permissions, propriétaires, tailles et dates de modifications |
+| `sudo` | substitute user do | permet d'exécuter une commande en tant qu'administrateur |
+| `` |  |  |
